@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Playfair Display', serif;
+}
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.all-sections{
+  padding: 30px 80px 80px 80px;
+}
+.container-fluid{
+  background-color: #b3bbea;
+}
+img{
+  width: 70%;
+}
+.container-fluid h1{
+  margin-left: 70px;
+  margin-top: 20px;
+}
+/* Navigation Bar styling */
+.nav-bar{
+ background-color: #b3bbea ; 
+}
+.navItems{
+  margin-left: 60%;
+}
+.navlink{
+  color: white;
+  font-family: 'Playfair Display', serif;
+  
+}
+.whitepart-title{
+  color: white;
+}
+
+/* Header styling */
+.header-paragraph{
+  
+  width: 18rem;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 25px;
+}
+.heading-paragraph{
+  text-align: left;
+}
+
+/* ABOUT STYLING */
+.aboutImg{
+   margin-top: 2px;
+   width: 80%;
+}
+.about-content{
+  
+  width: 18rem;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 100px;
+}
+.about-content span{
+  color: white;
+  font-style: italic;
+}
+.about-content p{
+  text-align: left;
+}
+.about-content a{
+  text-decoration: none;
+}
+
+/* PRODUCTS STYLING */
+.product-content{
+  background-color: #a0aecd;
+  width: 18rem;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.product-content p{
+  color: white;
+  text-align: left;
+}
+.product-icon{
+  color: white;
+}
+.product-section{
+  margin-top: 120px ;
+}
+
+/* owner Styling */
+.owner{
+  width: 50%;
+  margin: 0 auto;
+  
+}
+.owner-img{
+  width: 27%;
+  border-radius: 100%;
+  margin-left: 34%;
+}
+.darker{
+  background-color: #a0aecd;
+  width: 18rem;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 28%;
+  margin-bottom: 75px;
+}
+.darker span{
+  font-style: italic;
+}
+.darker p{
+  color: white;
+}
+.darker a{
+  text-decoration: none;
+  color: black;
+}
+.btn {
+  background: #0b0c0d;
+  background-image: -webkit-linear-gradient(top, #0b0c0d, #000000);
+  background-image: -moz-linear-gradient(top, #0b0c0d, #000000);
+  background-image: -ms-linear-gradient(top, #0b0c0d, #000000);
+  background-image: -o-linear-gradient(top, #0b0c0d, #000000);
+  background-image: linear-gradient(to bottom, #0b0c0d, #000000);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  text-decoration: none;
+}
+
+/* Contact styling */
+.contact{
+  background-color: #000000;
+}
+.contact h1{
+  color: #b3bbea;
+}
+.contact span{
+  color: white;
+}
+.contact p{
+  color: #b3bbea;
+}
+.contact-icon{
+  color: white;
+  margin-top: 5px ;
+  margin-left: 5px;
+}
+.contact-content{
+  margin-top: 55px;
+}
+.social-icon{
+  margin-left: 30px;
+  color: white;
+  margin-top: 5px;
+}
+.contact-content h3{
+  color: white;
+  margin-bottom: 30px;
+}
+.contact-content img{
+  width: 50%;
+}
+.copyright{
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+  .owner{
+    margin-left: 10px;
+  }
+}
